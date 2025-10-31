@@ -24,6 +24,7 @@
     <ProjectGuid>{eeaab64f-14e5-4b59-bd04-ca028dfd862a}</ProjectGuid>
     <RootNamespace>GEOMETRIX</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Garden of Ray</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -138,17 +139,10 @@
     <ClCompile Include="GameLib\vector.cpp" />
     <ClCompile Include="GameLib\view_settings.cpp" />
     <ClCompile Include="GameLib\wnd_proc.cpp" />
-    <ClCompile Include="SourceCode\crystallized_game.cpp" />
-    <ClCompile Include="SourceCode\fade_process.cpp" />
-    <ClCompile Include="SourceCode\main.cpp" />
-    <ClCompile Include="SourceCode\nadenna_eazy_game.cpp" />
-    <ClCompile Include="SourceCode\note.cpp" />
-    <ClCompile Include="SourceCode\player_control.cpp" />
-    <ClCompile Include="SourceCode\rank.cpp" />
-    <ClCompile Include="SourceCode\result.cpp" />
-    <ClCompile Include="SourceCode\scene_game.cpp" />
-    <ClCompile Include="SourceCode\scene_title.cpp" />
-    <ClCompile Include="SourceCode\tutorial.cpp" />
+    <ClCompile Include="SourceCode\Main.cpp" />
+    <ClCompile Include="SourceCode\SceneGame.cpp" />
+    <ClCompile Include="SourceCode\SceneTitle.cpp" />
+    <ClCompile Include="SourceCode\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameLib\blender.h" />
@@ -171,17 +165,11 @@
     <ClInclude Include="GameLib\vector.h" />
     <ClInclude Include="GameLib\view_settings.h" />
     <ClInclude Include="SourceCode\all.h" />
-    <ClInclude Include="SourceCode\common.h" />
-    <ClInclude Include="SourceCode\crystallized_game.h" />
-    <ClInclude Include="SourceCode\fade_process.h" />
-    <ClInclude Include="SourceCode\nadenna_eazy_game.h" />
-    <ClInclude Include="SourceCode\note.h" />
-    <ClInclude Include="SourceCode\player_control.h" />
-    <ClInclude Include="SourceCode\rank.h" />
-    <ClInclude Include="SourceCode\result.h" />
-    <ClInclude Include="SourceCode\scene_game.h" />
-    <ClInclude Include="SourceCode\scene_title.h" />
-    <ClInclude Include="SourceCode\tutorial.h" />
+    <ClInclude Include="SourceCode\Scene.h" />
+    <ClInclude Include="SourceCode\SceneGame.h" />
+    <ClInclude Include="SourceCode\SceneManager.h" />
+    <ClInclude Include="SourceCode\SceneTitle.h" />
+    <ClInclude Include="SourceCode\Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
